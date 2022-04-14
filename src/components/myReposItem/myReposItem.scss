@@ -1,0 +1,23 @@
+li {
+  background: rgb(0, 43, 46);
+  border-radius: 5px;
+  padding: 1rem 1rem;
+  margin: 1rem 0;
+
+  h1 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+  }
+
+}
+
+@media (min-width:600px) {
+  
+}

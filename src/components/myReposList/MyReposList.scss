@@ -1,0 +1,25 @@
+section {
+  padding: 2rem 0;
+  width: 100%;
+  ul {
+    list-style: none;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
+}
+
+@media (min-width:600px) {
+  section {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      li {
+        width: 45%;
+      }
+    }
+  }
+  
+}

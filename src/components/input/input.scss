@@ -1,0 +1,33 @@
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  input {
+    height: 1.5rem;
+    padding: 0 .2rem;
+    
+  }
+
+  .input-label{
+    display: block;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 1.5rem;
+  }
+  
+  // .btn-search {
+  //   height: 1.5rem;
+  //   margin-left: .5rem;
+  //   padding: 0 .5rem;
+  //   text-transform: uppercase;
+  //   border: 1px solid #999;
+  //   background: transparent;
+  //   color: #fff;
+  //   font-weight: 600;
+    
+  // }
+  .btn-search:hover {
+    background: #fff;
+    color: rgb(19, 19, 19);
+  }
+}
